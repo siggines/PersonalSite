@@ -1,4 +1,5 @@
-import react from 'react';
-import reactDOM from 'react-dom';
+import { redirect } from "@remix-run/node";
 
-
+export const loader = () => {
+  throw redirect("/home");
+};
