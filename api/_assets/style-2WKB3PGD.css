@@ -79,7 +79,7 @@ header ul li a:hover {
   right: 0;
   bottom: 0;
   z-index: -1;
-  filter: opacity(25%) hue-rotate(90deg);
+  filter: sepia(100) opacity(100%) hue-rotate(90deg);
 }
 
 .Daniel h1 {

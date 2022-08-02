@@ -12,6 +12,8 @@ html,
 body {
   background-color: #111827;
   height: calc(100% - 3.5rem);
+  background-image: url("/images/danielsface.jpg");
+  background-repeat: no-repeat;
 }
 header {
   background-color: #334155;
@@ -65,21 +67,6 @@ header ul li a:hover {
   text-align: center;
   background: none;
   max-width: 85%;
-  position: relative;
-  z-index: 1;
-}
-
-.Daniel::before {
-  content: "";
-  background-image: url("/images/danielsface.jpg");
-  background-position: center 45%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  filter: opacity(25%) hue-rotate(90deg);
 }
 
 .Daniel h1 {

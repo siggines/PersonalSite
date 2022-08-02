@@ -25,17 +25,12 @@ header ul {
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
-}
-@media (min-width: 768px) {
-  header ul {
-    justify-content: flex-end;
-  }
 }
 
 header ul li {
-  margin: 0 1.5rem;
+  margin-right: 2rem;
 }
 
 header ul li a {
@@ -63,23 +58,6 @@ header ul li a:hover {
   transition: all 1s;
   text-decoration: none;
   text-align: center;
-  background: none;
-  max-width: 85%;
-  position: relative;
-  z-index: 1;
-}
-
-.Daniel::before {
-  content: "";
-  background-image: url("/images/danielsface.jpg");
-  background-position: center 45%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  filter: opacity(25%) hue-rotate(90deg);
 }
 
 .Daniel h1 {
@@ -92,4 +70,20 @@ header ul li a:hover {
 .Daniel:hover {
   background-color: #cbd5e1;
   color: #334155;
+}
+
+.Daniel iframe {
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.HomeMore {
+  text-decoration: none;
+  color: var(--textwhite);
+}
+
+.Daniel:hover .HomeMore {
+  background-color: #cbd5e1;
+  color: #334155;
+  transition: all 1s;
 }

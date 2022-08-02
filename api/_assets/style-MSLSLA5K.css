@@ -66,7 +66,6 @@ header ul li a:hover {
   background: none;
   max-width: 85%;
   position: relative;
-  z-index: 1;
 }
 
 .Daniel::before {
@@ -78,8 +77,6 @@ header ul li a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
-  filter: opacity(25%) hue-rotate(90deg);
 }
 
 .Daniel h1 {
