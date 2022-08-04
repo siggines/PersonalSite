@@ -108,6 +108,10 @@ header ul li span {
 
 .Gallery__item Gallery__item--1 {
   position: absolute;
+  border: #f1f5f9;
+  border-style: solid;
+  border-width: 0.25rem;
+  border-radius: 6px;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -115,6 +119,10 @@ header ul li span {
 }
 .Gallery__item Gallery__item--2 {
   position: absolute;
+  border: #f1f5f9;
+  border-style: solid;
+  border-width: 0.25rem;
+  border-radius: 6px;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -122,9 +130,6 @@ header ul li span {
 }
 .Gallery {
   display: grid;
-  position: absolute;
-  justify-content: center;
-  max-width: fit-content;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
@@ -137,10 +142,4 @@ header ul li span {
   object-fit: cover;
   display: block;
   border: #f1f5f9;
-  border-style: solid;
-  border-radius: 6px;
-}
-
-.Gallery__vid:hover {
-  background-color: #f1f5f9;
 }

@@ -129,6 +129,7 @@ header ul li span {
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
   padding: 1rem;
+  padding-left: 15rem;
 }
 
 .Gallery__vid {
@@ -139,6 +140,7 @@ header ul li span {
   border: #f1f5f9;
   border-style: solid;
   border-radius: 6px;
+  max-width: fit-content;
 }
 
 .Gallery__vid:hover {

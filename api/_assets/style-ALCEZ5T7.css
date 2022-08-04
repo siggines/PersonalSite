@@ -52,7 +52,6 @@ header ul li a {
 header ul li a:hover {
   background-color: #cbd5e1;
   border-radius: 4px;
-  color: #334155;
 }
 
 .DanielWrapper {
@@ -62,10 +61,8 @@ header ul li a:hover {
   align-items: center;
 }
 
-header ul li span {
-  vertical-align: bottom;
-  padding-bottom: 0.15rem;
-  padding-right: 0.25rem;
+#HomeButton {
+  vertical-align: auto;
 }
 .Daniel {
   color: var(--textwhite);
@@ -104,43 +101,4 @@ header ul li span {
 .Daniel:hover {
   background-color: #cbd5e1;
   color: #334155;
-}
-
-.Gallery__item Gallery__item--1 {
-  position: absolute;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-.Gallery__item Gallery__item--2 {
-  position: absolute;
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-.Gallery {
-  display: grid;
-  position: absolute;
-  justify-content: center;
-  max-width: fit-content;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  grid-gap: 15px;
-  padding: 1rem;
-}
-
-.Gallery__vid {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  border: #f1f5f9;
-  border-style: solid;
-  border-radius: 6px;
-}
-
-.Gallery__vid:hover {
-  background-color: #f1f5f9;
 }

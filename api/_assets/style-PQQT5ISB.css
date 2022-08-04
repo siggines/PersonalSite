@@ -139,6 +139,7 @@ header ul li span {
   border: #f1f5f9;
   border-style: solid;
   border-radius: 6px;
+  max-width: 95%;
 }
 
 .Gallery__vid:hover {

@@ -122,9 +122,6 @@ header ul li span {
 }
 .Gallery {
   display: grid;
-  position: absolute;
-  justify-content: center;
-  max-width: fit-content;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;

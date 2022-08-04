@@ -115,7 +115,7 @@ header ul li span {
 }
 .Gallery__item Gallery__item--2 {
   position: absolute;
-  grid-column-start: 3;
+  grid-column-start: 7;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
