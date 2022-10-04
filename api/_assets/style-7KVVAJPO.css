@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap");
+:root {
+  --textwhite: #f1f5f9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html,
+body {
+  background-color: #111827;
+  height: calc(100% - 3.5rem);
+  background-image: url("app/images/danielsface.jpg");
+}
+header {
+  background-color: #334155;
+  height: 3.5rem;
+  color: var(--textwhite);
+  font-size: 1.5rem;
+}
+
+header ul {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  header ul {
+    justify-content: flex-end;
+  }
+}
+
+header ul li {
+  margin: 0 1.5rem;
+}
+
+header ul li a {
+  color: var(--textwhite);
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: all 0.5s;
+}
+
+header ul li a:hover {
+  background-color: #cbd5e1;
+  border-radius: 4px;
+}
+.DanielWrapper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Daniel {
+  color: var(--textwhite);
+  border: 2px solid #cbd5e1;
+  padding: 5rem;
+  border-radius: 8px;
+  transition: all 1s;
+  text-decoration: none;
+  text-align: center;
+  background: none;
+  max-width: 85%;
+}
+
+.Daniel h1 {
+  margin-bottom: 1rem;
+}
+.Daniel p {
+  margin-top: 1rem;
+}
+
+.Daniel:hover {
+  background-color: #cbd5e1;
+  color: #334155;
+}
