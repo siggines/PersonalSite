@@ -79,6 +79,7 @@ header ul li span {
   max-width: 85%;
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 
 .Daniel::before {
