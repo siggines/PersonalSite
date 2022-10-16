@@ -10,12 +10,12 @@ import {
   useCatch,
 } from "@remix-run/react";
 
-import style from "~/styles/style.css";
+import styles from "./tailwind.css";
 import { Header } from "./components/Header";
 
 // https://remix.run/api/conventions#links
 export let links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: style }];
+  return [{ rel: "stylesheet", href: styles }];
 };
 
 // https://remix.run/api/conventions#meta
@@ -106,7 +106,7 @@ function Document({
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="h-full bg-stone-900">
         {children}
         <ScrollRestoration />
         <Scripts />
